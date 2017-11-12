@@ -1,0 +1,466 @@
+/*--- Universal Style ---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: 'Merriweather Sans', sans-serif;
+  max-width: 1500px;
+  margin: auto;
+}
+
+/*--- Logo and Menu Colmar Academy ---*/
+.titleAndMenu {
+  background-color: #FFFFFF;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*logo and title*/
+.title {
+  display: flex;
+  margin-left: 24px;
+  align-items: center;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.colmar {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.academy {
+  color: #9B9B9B;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile {
+  display: none;
+}
+
+/*menu*/
+.menu {
+  margin-right: 24px;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  padding-right: 16px;
+}
+
+/*--- MAIN - banner ---*/
+.main {
+  background-color: #D8D8D8;
+  display: flex;
+  align-items: center;
+}
+
+.main .mainPic {
+  height: 100%;
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.textMain {
+  margin-left: 24px;
+  padding-right: 24px;
+}
+
+.textMain h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #4A4A4A;
+}
+
+.textMain h3 {
+  font-size: 2rem;
+  padding-top: 25px;
+  color: #4A4A4A;
+}
+
+.botton {
+  background-color: #4A4A4A;
+  color: #F3F5F5;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  margin: 32px 0;
+  width: 80%;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.textMain a:hover {
+  background-color: #F3F5F5;
+  color: #4A4A4A;
+  transition-duration: 750ms;
+}
+
+/*--- COLUMNS ---*/
+.columns {
+  background-color: #F3F5F5;
+  display: flex;
+  justify-content: space-between;
+}
+/*column left*/
+.columnOne {
+  padding: 32px 24px;
+  width: 60%;
+  border-right: 1px solid grey;
+}
+.columnPic {
+  width: 100%;
+  padding-bottom: 32px;
+}
+.columnOne h2 {
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #4A4A4A;
+}
+.columnOne p {
+  padding-top: 24px;
+  padding-bottom: 32px;
+  font-size: 1.2rem;
+  color: #4A4A4A;
+}
+.columnOne span {
+  color: #4A4A4A;
+}
+/*right*/
+.columnTwo {
+  width: 40%;
+  padding-top: 16px;
+}
+.box {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #4A4A4A;
+  background-color: #F3F5F5;
+}
+.box:last-child {
+  background-color: #D8D8D8;
+}
+.box .boxPic {
+  height: auto;
+  width: 35%;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+.mobileImg {
+  display: none;
+}
+.box .contentBox {
+  width: 65%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+}
+.box h3 {
+  font-weight: bold;
+  padding-bottom: 8px;
+  color: #4A4A4A;
+}
+.box p {
+  padding-bottom: 8px;
+  color: #4A4A4A;
+}
+
+.box a {
+  text-decoration: none;
+  color: blue;
+}
+
+.box a:hover {
+  text-decoration: underline;
+  color: lightskyblue;
+}
+/*--- COURSES ---*/
+.courses {
+  background-color: #EAEBEC;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.mobileNav {
+  display: none;
+}
+.courses h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  color: #4A4A4A;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.courseBox {
+  background-color: #FFFFFF;
+  margin-left: 32px;
+  width: 30%;
+  margin-bottom: 32px;
+}
+.coursePic {
+  align-content: center;
+  display: flex;
+  height: auto;
+  width: 100%;
+  padding-bottom: 16px;
+}
+.textBox {
+  height: 100px;
+  margin-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.textBox h4 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding-bottom: 8px;
+  color: #4A4A4A;
+}
+.textBox span {
+  color: #4A4A4A;
+}
+.textBox p {
+  color: #4A4A4A;
+  padding-top: 8px;
+}
+
+/*--- THESIS ---*/
+.thesis {
+  border-bottom: 1px solid grey;
+  background-color: #F3F5F5;
+}
+.thesis h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  color: #4A4A4A;
+}
+.thesisContent {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+.vid {
+  width: 60%;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+}
+.vid video {
+  width: 100%;
+  padding-bottom: 24px;
+}
+.vidText {
+  width: 60%;
+}
+.vidText h4 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding-bottom: 8px;
+  color: #4A4A4A;
+}
+.vid p {
+  width: 150%;
+  font-size: 1.1rem;
+  color: #4A4A4A;
+}
+.thesisColumn {
+  width: 40%;
+  padding-top: 16px;
+}
+
+.boxThesis {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+.boxThesis:first-child {
+  background-color: #D8D8D8;
+}
+.boxThesisPic {
+  height: auto;
+  width: 35%;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+.contentThesisBox {
+  padding-left: 16px;
+}
+.contentThesisBox h4, .contentThesisBox h4 {
+  font-weight: bold;
+  padding-bottom: 8px;
+  color: #4A4A4A;
+}
+.contentThesisBox p, .contentThesisBox p {
+  padding-bottom: 8px;
+  color: #4A4A4A;
+}
+
+/*--- FOOTER ---*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #F3F5F5;
+}
+.copyrights {
+  padding-top: 24px;
+  padding-left: 24px;
+}
+.copyrights span {
+  color: #4A4A4A;
+}
+.terms {
+  padding-top: 24px;
+  padding-right: 24px;
+}
+.terms span {
+  padding-left: 10px;
+  color: #4A4A4A;
+}
+
+/*---> MEDIA QUERIES <---*/
+@media only screen and (max-width: 480px) {
+/*UNIVERSAL STYLE*/
+  html {
+    font-size: 12px;
+  }
+/*Logo and Menu Colmar Academy*/
+  .title, .menu {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .mainPic {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .textMain h1 {
+    padding-top: 32px;
+  }
+  .botton {
+    background-color: rgb(154, 154, 154);
+    width: 100%;
+  }
+  .columnOne {
+    display: none;
+  }
+  .columnTwo {
+    width: 100%;
+    border-bottom: 1px solid rgb(154, 154, 154);
+    padding-bottom: 32px;
+  }
+  .box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-style: none;
+  }
+  .box:last-child {
+    background-color: #F3F5F5;
+  }
+  .boxPic {
+    display: none;
+  }
+  .mobileImg {
+    display: block;
+    width: 100%;
+    padding: 16px;
+  }
+  .box .contentBox {
+    font-size: 1.4rem;
+    width: 100%;
+    padding-left: 32px;
+  }
+  .courses h2 {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    font-size: 3rem;
+  }
+  .boxes {
+    display: none;
+  }
+  .mobileNav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .btn {
+    background-color: rgb(215, 215, 215);
+    color: rgb(70, 70, 70);
+    display: block;
+    width: 150%;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-right: 55px;
+    margin-bottom: 8px;
+  }
+/*THESIS*/
+  .thesis {
+    border-style: none;
+  }
+  .vid {
+    width: 100%;
+    padding: 0;
+  }
+  .mobileVideo {
+    width: 100%;
+    padding: 0;
+  }
+  .vidText {
+    display: none;
+  }
+  .thesisColumn {
+    display: none;
+  }
+/*FOOTER*/
+  .terms {
+    display: none;
+  }
+  .copyrights {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
